@@ -5,4 +5,3 @@ tasks:
 ports:
   - port: 4200
     onOpen: open-preview
-image: node:14-buster
