@@ -1,0 +1,8 @@
+# Commands to start on workspace startup
+tasks:
+  - init: npm i
+    command: npm start
+ports:
+  - port: 4200
+    onOpen: open-preview
+image: node:14-buster
